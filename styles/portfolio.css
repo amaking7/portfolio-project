@@ -1,0 +1,18 @@
+/* Typography: Playfair Display and Poppins - both in 3 weights: Regular 400, Medium 500, and Bold 700
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
