@@ -11,17 +11,20 @@ font-family: 'Poppins', sans-serif;
   --teal-500: #004c53;
   --teal-600: #002b2f;
   --text-color: #272142;
-  --heading-font-family: Playfair Display', serif;
-  --body-font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
 h1 {
-    font-size: 56px;
+  font-size: 56px;
 }
 
 p {
@@ -30,17 +33,17 @@ p {
 }
 
 .hero {
-    background: var(--teal-100);
-    text-align: center;
-    padding: 160px 0;
+  background: var(--teal-100);
+  text-align: center;
+  padding: 160px 0;
 }
 
 .hero p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .btn-custom-primary {
-    background: var(--teal-400);
-    color: white;
-    padding: 16px 32px;
+  background: var(--teal-400);
+  color: white;
+  padding: 16px 32px;
 }
