@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;
   --teal-400: #006d77;
   --teal-500: #004c53;
   --teal-600: #002b2f;
-  --text-color: #272142;
+  --text-color: #162526;
 }
 
 h1,
@@ -24,7 +24,15 @@ h6 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
 }
 
 p {
@@ -46,4 +54,34 @@ p {
   background: var(--teal-400);
   color: white;
   padding: 16px 32px;
+}
+
+.btn-custom-secondary {
+  color: var(--teal-400);
+  border: 1px solid var(--teal-400);
+  padding: 16px 24px;
+}
+
+.btn-custom-disabled {
+  color: #828282;
+  border: 1px solid #828282;
+  padding: 16px 24px;
+}
+
+.body-content {
+  padding: 150px 0;
+}
+
+.project-description {
+  opacity: 75%;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 }
