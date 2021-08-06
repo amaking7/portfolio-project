@@ -11,6 +11,7 @@ font-family: 'Poppins', sans-serif;
   --teal-500: #004c53;
   --teal-600: #002b2f;
   --text-color: #162526;
+  --gray-300: #a7a7a7;
 }
 
 h1,
@@ -40,10 +41,14 @@ p {
   font-weight: 400;
 }
 
+a {
+  transition: ease-in-out 250ms;
+}
+
 .hero {
   background: var(--teal-100);
   text-align: center;
-  padding: 160px 0;
+  padding: 200px 0;
 }
 
 .hero p {
@@ -56,16 +61,31 @@ p {
   padding: 16px 32px;
 }
 
+.btn-custom-primary:hover {
+  background: var(--teal-300);
+  color: white;
+}
+
 .btn-custom-secondary {
   color: var(--teal-400);
   border: 1px solid var(--teal-400);
   padding: 16px 24px;
 }
 
+.btn-custom-secondary:hover {
+  color: var(--teal-400);
+  background: var(--teal-100);
+}
+
 .btn-custom-disabled {
-  color: #828282;
-  border: 1px solid #828282;
+  color: white;
+  background: var(--gray-300);
   padding: 16px 24px;
+}
+
+.btn-custom-disabled:hover {
+  color: white;
+  cursor: not-allowed;
 }
 
 .body-content {
