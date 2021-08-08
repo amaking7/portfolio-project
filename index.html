@@ -26,13 +26,17 @@
       src="https://kit.fontawesome.com/48d7284dca.js"
       crossorigin="anonymous"
     ></script>
-    <title>Responsive Portfolio Site</title>
+    <meta
+      name="description"
+      content="Amanda is a Product Designer learning to code. This is her portfolio project submission for the SheCodes Responsive Workshop completed August 2021."
+    />
+    <title>Responsive Portfolio Site - Amanda</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="/"
-          ><i class="fas fa-rocket nav-image"></i
+        <a class="navbar-brand" href="/" title="Homepage"
+          ><i class="fas fa-rocket nav-image" alt="rocket icon"></i
         ></a>
         <button
           class="navbar-toggler"
@@ -48,15 +52,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/#projects"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/#projects"
+                title="My coding projects"
                 >Work</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html" title="About me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact me"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -74,7 +84,7 @@
     <div class="container body-content">
       <h2 class="text-center mb-5" id="projects">Coding Projects</h2>
       <div class="row">
-        <div class="col-md-6 p-3 initial-project">
+        <div class="col-md-6 p-4 initial-project">
           <img
             src="/images/weatherProject-img.png"
             alt=""
@@ -89,11 +99,12 @@
             href="https://sad-shockley-7ab00b.netlify.app/"
             target="_blank"
             class="btn btn-custom-secondary"
+            title="Visit weather app hosted on Netlify"
             >Visit live weather app</a
           >
         </div>
 
-        <div class="col-md-6 p-3">
+        <div class="col-md-6 p-4">
           <img
             src="/images/placeholder-img.png"
             alt=""
@@ -104,7 +115,9 @@
             Dictionary app built with React and API integration. Project is
             currently in-progress.
           </p>
-          <a class="btn btn-custom-disabled">Coming soon</a>
+          <a class="btn btn-custom-disabled" title="Coming in Dec 2021"
+            >Coming soon</a
+          >
         </div>
       </div>
     </div>

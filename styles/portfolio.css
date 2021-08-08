@@ -147,6 +147,12 @@ footer {
     font-size: 40px;
   }
 
+  .hero,
+  .content-container,
+  .body-content {
+    padding: 96px 0;
+  }
+
   .initial-project {
     margin-bottom: 40px;
   }
