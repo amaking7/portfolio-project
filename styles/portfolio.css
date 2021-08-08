@@ -51,6 +51,14 @@ footer {
   font-size: 16px;
 }
 
+footer a {
+  color: var(--teal-500);
+}
+
+footer a:hover {
+  color: var(--teal-300);
+}
+
 .hero {
   background: var(--teal-100);
   text-align: center;
