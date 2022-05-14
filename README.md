@@ -3,4 +3,4 @@
  
  This project was done as my final project submission for the SheCodes Responsive workshop.
  
- View the live project [here](https://elastic-northcutt-d2a9e0.netlify.app/)
+ View the live project [here](https://elastic-northcutt-test.netlify.app/)
